@@ -1,0 +1,1359 @@
+body {
+    background-color: rgb(236, 236, 236);
+}
+
+
+.navbar .container-fluid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.first,
+.second {
+    width: 100%;
+
+}
+
+.first {
+
+    justify-content: flex-start;
+    font-family: 'Roboto Slab', sans-serif;
+    align-items: center;
+    padding: 0px 90px;
+}
+
+.first a {
+    font-family: "Playfair";
+    font-weight: 400;
+    font-size: 50px;
+    letter-spacing: 0.5px;
+    margin-left: 30px;
+    margin-right: 60px;
+
+}
+
+.first img {
+    width: 100px;
+    height: 90px;
+    align-self: flex-start;
+}
+
+.second {
+    background-color: rgba(33, 37, 41, var(--bs-bg-opacity, 1));
+    padding: 10px 0px;
+}
+
+.navbar-nav {
+    padding-left: 90px;
+    width: 100%;
+}
+
+.nav-link {
+    font-family: "Noto Sans";
+    letter-spacing: 0.4px;
+    font-size: 1.1em;
+    font-weight: 400;
+    margin: 0px 8px;
+    border-radius: 7.5px;
+    transition: all 200ms ease-in-out;
+    line-height: 22px;
+    color: white;
+    margin-left: 10px;
+}
+
+.nav-link:nth-of-type(1) {
+    color: white;
+}
+
+.navbar ul li ul {
+    display: none;
+    width: 200px;
+    float: left;
+    border-radius: 10px;
+    background-color: black;
+    border-color: white;
+}
+
+.navbar ul li:hover ul {
+    display: block;
+}
+
+.navbar-toggler:active .navbar ul li:hover ul {
+    display: block;
+}
+
+.dropdown-item {
+    color: white;
+}
+
+.navbar input {
+    border: none;
+    background-color: rgb(249, 249, 249);
+
+}
+
+.form-control:focus {
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    background-color: rgb(249, 249, 249);
+}
+
+.navbar button {
+    background-color: rgb(249, 249, 249);
+
+}
+
+.navbar form {
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 18px;
+    background-color: rgb(249, 249, 249);
+    display: inline-block;
+    padding: 0px 10px;
+    margin: 0px 20px;
+    max-height: 38px;
+    max-width: 160px;
+}
+
+.navbar form button {
+    height: 30px;
+    padding-right: 10px;
+    text-align: center;
+    padding-bottom: 10px;
+    max-width: 30px;
+}
+
+.navbar form input {
+    height: 30px;
+}
+
+.navbar button svg {
+    vertical-align: top;
+}
+
+.nav-link:hover {
+    background-color: rgba(0, 0, 0);
+    color: white;
+    cursor: pointer;
+}
+
+.nav-link:nth-of-type(1):hover {
+    background-color: rgba(0, 0, 0);
+    color: white;
+    cursor: pointer;
+}
+
+@media(min-width:992px) {
+    .second {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.content {
+    margin-top: 150px;
+    padding: 20px 90px;
+    background-image: linear-gradient(rgb(233, 247, 253), rgb(204, 233, 248));;
+    min-height: 50vh;
+}
+.cntct h5 p b{
+    width: 200px;
+}
+.cntct h5 p{
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+.write h1 {
+    font-family: "Playfair";
+    font-weight: 800;
+    font-size: 2.5rem;
+    letter-spacing: 0.3px;
+    margin-bottom: 30px;
+    padding-top: 30px;
+}
+
+.write h3 {
+    font-family: "Playfair";
+    font-weight: 500;
+    font-size: 2.0rem;
+    letter-spacing: 0.3px;
+    margin-bottom: 25px;
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(233, 168, 46, 0.7);
+}
+
+.write p {
+    padding-right: 10px;
+    font-family: "Noto Sans", serif;
+    font-weight: 300;
+    font-size: 1.2rem;
+    letter-spacing: 0.2px;
+
+}
+
+.write li {
+    font-family: "Noto Sans", serif;
+    font-weight: 300;
+    font-size: 1.2rem;
+    letter-spacing: 0.2px;
+    margin-bottom: 15px;
+}
+
+.write img {
+    box-shadow: 0px 0px 8px 8px rgba(0, 217, 90, 0.7);
+    max-height: 300px;
+    max-width: 70%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 50px;
+    vertical-align: top;
+}
+.write form .row{
+    
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin:15px;
+}
+
+.sub{
+    margin: 15px;
+   align-self: center;
+    padding: 0 10px;
+    color: azure;
+    background-color: rgb(51, 27, 93);
+}
+#issue{
+    height: 70px;
+}
+.grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 4fr 2fr 4fr;
+}
+footer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;  
+    background-color: #090909;
+    color: rgb(255, 255, 255);
+    border-top: 10px solid #00d95a;
+    height: 100%;
+    padding: 0px 0px;
+}
+
+.one {
+    width: 100%;
+    justify-content: space-evenly;
+    height: 600px;
+    padding-top: 10px;
+
+}
+
+.two {
+    justify-self: flex-start;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    background-color: #222222;
+    margin-top: 10px;
+    font-size: 12.5px;
+    padding-left: 90px;
+    padding-right: 90px;
+    color: rgb(179, 179, 179);
+}
+
+.Contact {
+    height: 550px;
+    width: 20%;
+    align-self: center;
+    padding-top: 80px;
+
+}
+
+.address a {
+    text-decoration: none;
+    color: white;
+}
+
+.Location,
+.Calender {
+    width: 27.5%;
+    height: 570px;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.Location,
+.Calender {
+    align-self: flex-end;
+}
+
+.Calender {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-size: 55.5%;
+    font-family: "Quicksand", sans-serif;
+
+}
+
+.month h1 {
+    font-size: 3.2em;
+    margin-bottom: 0;
+    font-weight: 400;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+}
+
+.contain {
+    width: 100%;
+    height: 100%;
+    background-color: #222227;
+    box-shadow: 0 0.5rem 3rem rgb(0, 0, 0, 0.4);
+}
+
+.month {
+    width: 100%;
+    height: 5rem;
+    background-color: #00d95a;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.2rem;
+    text-align: center;
+    box-shadow: 0, 0.3rem, 0.5rem rgba(0, 0, 0, 0.5);
+}
+
+.month button {
+    cursor: pointer;
+    font-size: 2.5rem;
+    color: white;
+    background-color: #00d95a;
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+
+.month p {
+    font-size: 0.7rem;
+}
+
+.weekdays {
+    width: 100%;
+    height: 1.483rem;
+    padding: 0 0.4rem;
+    align-items: center;
+}
+
+.weekdays div {
+    font-size: 0.9rem;
+    font-weight: 400;
+    letter-spacing: 0.07rem;
+    width: calc(100%/7);
+    display: flex;
+    align-items: center;
+    box-shadow: 0.1rem 0.2rem rgba(0, 0, 0, 0.2);
+    justify-content: center;
+}
+
+.days {
+    width: 100%;
+    padding: 0.4rem 0.2rem;
+    flex-wrap: wrap;
+
+}
+
+.days div {
+    margin: 0.2rem;
+    font-size: 0.7rem;
+    width: calc(100%/8);
+    height: 2rem;
+    box-sizing: border-box;
+    border: 0px solid white;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 0.1rem 0.2rem rgba(0, 0, 0, 0.2);
+    transition: background-color 0.2sec ease-in-out;
+}
+
+.prev-date,
+.next-date {
+    opacity: 0.3;
+}
+
+.today {
+    background-color: #167e56;
+}
+
+.days div:hover:not(.today) {
+    border: 0.1rem solid white;
+    background-color: #0c0c0e;
+}
+
+.Contact {
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.icon svg {
+    text-decoration: none;
+    color: #00d95a;
+    margin: 0px 7.5px;
+    width: 25px;
+    height: 25px;
+}
+
+.icon svg:hover {
+    color: rgb(58, 87, 202);
+}
+@media(min-width:1470px) {
+    .navbar {
+        min-width: 1470px;
+    }
+
+    .first {
+        padding: 0px 80px;
+        margin: 0px;
+
+    }
+
+    .first a {
+        margin-left: 50px;
+        margin-right: 50px;
+        font-size: 55px;
+    }
+    .first img{
+        width: 130px;
+        height: 90px;
+    }
+
+    .second {
+        font-size: 15.5px;
+        margin: 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+
+    }
+
+    .navbar-nav {
+        padding-left: 70px;
+    }
+
+    .nav-link {
+        margin: 0px 7px;
+    }
+
+    .navbar form {
+
+        margin: 0 20px;
+        padding: 0 10px;
+        max-width: 170px;
+        font-size: 14px;
+    }
+
+
+
+    .content {
+        margin: 0px;
+        margin-top: 140px;
+        padding: 30px 90px;
+        padding-top: 50px;
+        width: 100%;
+    }
+
+    .write h1 {
+        font-size: 38.5px;
+    }
+    .write h3{
+        font-size: 33.5px;
+    }
+    .write h2{
+        font-size: 36px;
+    }
+
+    .write p {
+        font-size: 18.5px;
+        word-spacing: 4px;
+    }
+
+    footer {
+        font-size: 13.5px;
+    }
+
+    .one {
+        font-size: 13px;
+        padding: 20px 20px;
+        max-height: 600px;
+
+    }
+
+    .Calender,
+    .Contact,
+    .Location {
+        height: 580px;
+        width: 29%;
+        padding: 20px 0px;
+        align-self: flex-start;
+    }
+
+    .Contact {
+        width: 24%;
+        padding-left: 30px;
+    }
+
+    .Contact h5 {
+        font-size: 27.5px;
+    }
+
+    .month {
+        height: 9.2rem;
+        padding: 1rem;
+    }
+
+    .month h1 {
+        font-size: 6.8em;
+        letter-spacing: 0.09rem;
+        font-weight: 400;
+        padding-top: 2rem;
+    }
+
+    .month button {
+        font-size: 3.3rem;
+    }
+
+    .month p {
+        font-size: 1.4rem;
+    }
+
+    .weekdays {
+        height: 2.3rem;
+        padding: 0 0.5rem;
+    }
+
+    .weekdays div {
+        font-size: 1.3rem;
+        font-weight: 400;
+        letter-spacing: 0.09rem;
+    }
+
+    .days {
+        padding: 0.85rem 0.25rem;
+        padding-left: 0.85rem;
+    }
+
+    .days div {
+        font-size: 1.1rem;
+        margin: 0.12rem 0.17rem;
+        height: 1.7rem;
+        padding: 1.38rem 0rem;
+    }
+
+    .two {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px 20px;
+        height: 32.4px;
+        font-size: 10px;
+    }
+
+
+}
+
+@media(max-width:1470px) {
+    .navbar {
+        max-width: 1470px;
+    }
+
+    .first {
+        padding: 0px 70px;
+        margin: 0px;
+
+    }
+
+    .first a {
+        margin-left: 30px;
+        margin-right: 30px;
+        font-size: 55px;
+    }
+    .first img{
+        width: 140px;
+        height: 100px;
+    }
+
+    .second {
+        font-size: 14.5px;
+        margin: 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+
+    }
+
+    .navbar-nav {
+        padding-left: 60px;
+    }
+
+    .nav-link {
+        margin: 0px 6px;
+    }
+
+    .navbar form {
+
+        margin: 0 10px;
+        padding: 0 10px;
+        max-width: 160px;
+        font-size: 13px;
+    }
+
+
+
+    .content {
+        margin: 0px;
+        margin-top: 130px;
+        padding: 30px 80px;
+        padding-top: 40px;
+        width: 100%;
+    }
+
+    .write h1 {
+        font-size: 38.5px;
+    }
+    .write h3{
+        font-size:33.5px
+    }
+    .write h2{
+        font-size: 36px;
+    }
+
+    .write p {
+        font-size: 15.5px;
+        word-spacing: 3.95px;
+    }
+
+    footer {
+        font-size: 12.5px;
+    }
+
+    .one {
+        font-size: 12px;
+        padding: 20px 20px;
+        height: 600px;
+
+    }
+
+    .Calender,
+    .Contact,
+    .Location {
+        height: 580px;
+        width: 28%;
+        padding: 20px 0px;
+        align-self: flex-start;
+    }
+
+    .Contact {
+        width: 22%;
+        padding-left: 20px;
+    }
+
+    .Contact h5 {
+        font-size: 20.5px;
+    }
+
+    .month {
+        height: 9rem;
+        padding: 0.95rem;
+    }
+
+    .month h1 {
+        font-size: 6.5em;
+        letter-spacing: 0.08rem;
+        font-weight: 400;
+        padding-top: 1.8rem;
+    }
+
+    .month button {
+        font-size: 3.1rem;
+    }
+
+    .month p {
+        font-size: 1.25rem;
+    }
+
+    .weekdays {
+        height: 2.15rem;
+        padding: 0 0.35rem;
+    }
+
+    .weekdays div {
+        font-size: 1rem;
+        font-weight: 400;
+        letter-spacing: 0.07rem;
+    }
+
+    .days {
+        padding: 0.8rem 0.2rem;
+        padding-left: 0.8rem;
+    }
+
+    .days div {
+        font-size: 1rem;
+        margin: 0.1rem 0.15rem;
+        height: 1.5rem;
+        padding: 1.35rem 0rem;
+    }
+
+    .two {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px 20px;
+        height: 32.4px;
+        font-size: 10px;
+    }
+
+
+}
+
+
+@media(max-width:1200px) {
+    .navbar {
+        max-width: 1200px;
+    }
+
+    .first {
+        padding: 0px 60px;
+        margin: 0px;
+
+    }
+
+    .first a {
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 55px;
+    }
+    .first img{
+        width: 130px;
+        height: 90px;
+    }
+
+    .second {
+        font-size: 12.5px;
+        margin: 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+
+    }
+
+    .navbar-nav {
+        padding-left: 60px;
+    }
+
+    .nav-link {
+        margin: 0px 1px;
+    }
+
+    .navbar form {
+
+        margin: 0px 10px;
+        padding: 0 10px;
+        max-width: 150px;
+        min-width: 130px;
+        font-size: 13px;
+    }
+
+
+
+    .content {
+        margin: 0px;
+        margin-top: 120px;
+        padding: 30px 70px;
+        padding-top: 30px;
+        width: 100%;
+    }
+
+    .write h1 {
+        font-size: 25.5px;
+    }
+    .write h3{
+        font-size: 22.5px;
+    }
+    .write h2{
+        font-size: 24px;
+    }
+
+    .write p {
+        font-size: 15.5px;
+        word-spacing: 0.95px;
+    }
+
+    footer {
+        font-size: 9.5px;
+    }
+
+    .one {
+        font-size: 9px;
+        padding: 20px 20px;
+        height: 480px;
+
+    }
+
+    .Calender,
+    .Contact,
+    .Location {
+        height: 380px;
+        width: 28%;
+        padding: 20px 0px;
+        align-self: flex-start;
+    }
+
+    .Contact {
+        width: 22%;
+        padding-left: 20px;
+    }
+
+    .Contact h5 {
+        font-size: 16.5px;
+    }
+
+    .month {
+        height: 4rem;
+        padding: 0.65rem;
+    }
+
+    .month h1 {
+        font-size: 5em;
+        letter-spacing: 0.1rem;
+        font-weight: 400;
+        padding-top: 1.2rem;
+    }
+
+    .month button {
+        font-size: 2.1rem;
+    }
+
+    .month p {
+        font-size: 1rem;
+    }
+
+    .weekdays {
+        height: 1.15rem;
+        padding: 0 0.25rem;
+    }
+
+    .weekdays div {
+        font-size: 0.8rem;
+        font-weight: 400;
+        letter-spacing: 0.06rem;
+    }
+
+    .days {
+        padding: 0.6rem 0.2rem;
+        padding-left: 0.2rem;
+    }
+
+    .days div {
+        font-size: 0.65rem;
+        margin: 0.1rem 0.1rem;
+        height: 1rem;
+        padding: 0.95rem 0rem;
+    }
+
+    .two {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px 20px;
+        height: 35px;
+        font-size: 8px;
+    }
+
+
+}
+
+@media(max-width:992px) {
+    .navbar {
+        max-width: 992px;
+    }
+
+    .first {
+        padding: 0px 30px;
+        margin: 0px;
+
+    }
+
+    .first a {
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 45px;
+    } 
+    .first img{
+        width: 110px;
+        height: 80px;
+    }
+
+    .second {
+        font-size: 13.5px;
+        padding-left: 50px;
+    }
+
+    .navbar form {
+
+        margin: 0px;
+        padding: 0 10px;
+        max-width: 180px;
+        min-width: 140px;
+        font-size: 13px;
+    }
+
+
+    .navbar-nav {
+        padding-left: 15px;
+    }
+
+    .navbar-toggler {
+        height: 30px;
+        width: 50px;
+        font-size: 12.5px;
+        font-weight: 400;
+        text-align: center;
+
+    }
+
+    .content {
+        margin: 0px;
+        margin-top: 120px;
+        padding: 30px 50px;
+        width: 100%;
+    }
+
+    .write h1 {
+        font-size: 25.5px;
+    }
+    .write h3 {
+        font-size: 22.5px;
+    }
+    .write h2{
+        font-size: 24px;
+    }
+
+    .write p {
+        font-size: 17.5px;
+        word-spacing: 0.95px;
+    }
+
+    footer {
+        font-size: 10.5px;
+    }
+
+    .one {
+
+        padding: 40px 30px;
+        height: 410px;
+        font-size: 8px;
+
+
+    }
+
+    .Calender,
+    .Contact,
+    .Location {
+        height: 260px;
+        width: 28%;
+        padding: 30px 0px;
+        align-self: flex-start;
+    }
+
+    .Contact {
+        width: 20%;
+        padding-left: 20px;
+    }
+
+    .Contact h5 {
+        font-size: 12px;
+    }
+
+    .month {
+        height: 3.5rem;
+        padding: 0.5rem;
+    }
+
+    .month h1 {
+        font-size: 4.5em;
+        letter-spacing: 0.15rem;
+        font-weight: 300;
+        padding-top: 1rem;
+    }
+
+    .month button {
+        font-size: 2.0rem;
+    }
+
+    .month p {
+        font-size: 0.8rem;
+    }
+
+    .weekdays {
+        height: 1rem;
+        padding: 0 0.2rem;
+    }
+
+    .weekdays div {
+        font-size: 0.7rem;
+        font-weight: 350;
+        letter-spacing: 0.05rem;
+    }
+
+    .days {
+        padding: 0.25rem 0.2rem;
+
+    }
+
+    .days div {
+        font-size: 0.4rem;
+        margin: 0.1rem;
+        height: 1rem;
+        padding: 0;
+    }
+
+    .two {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px 20px;
+        height: 34.2px;
+        font-size: 7px;
+    }
+
+
+}
+
+@media(max-width:768px) {
+    .navbar {
+        max-width: 768px;
+    }
+
+    .first {
+        padding: 0px 20px;
+        margin: 0px;
+
+    }
+
+    .first a {
+        margin-left: 5px;
+        margin-right: 5px;
+        font-size: 40px;
+    } 
+    .first img{
+        width: 100px;
+        height: 80px;
+    }
+
+    .second {
+        font-size: 11.75px;
+        padding-left: 20px;
+
+    }
+
+    .navbar form {
+        margin: 0px;
+        padding: 0 10px;
+        max-width: 165px;
+        min-width: 140px;
+        font-size: 11px;
+
+    }
+
+    .navbar-nav {
+        padding-left: 15px;
+    }
+
+    .navbar-toggler {
+        height: 25px;
+        width: 45px;
+        font-size: 10px;
+        font-weight: 400;
+
+    }
+
+    .content {
+        margin: 0px;
+        margin-top: 120px;
+        padding: 30px 35px;
+        width: 100%;
+    }
+
+    .write h1 {
+        font-size: 22.5px;
+    }
+    .write h3{
+        font-size: 19.5px;
+    }
+    .write h2{
+        font-size: 20.5px;
+    }
+
+    .write p {
+        font-size: 15.5px;
+        word-spacing: 0.83px;
+    }
+    .write img{
+        margin: 30px;
+    }
+
+    footer {
+        font-size: 8.25px;
+    }
+
+    .one {
+        font-size: 7px;
+        padding: 30px 25px;
+        height: 350px;
+
+
+
+    }
+
+    .Calender,
+    .Contact,
+    .Location {
+        height: 245.3px;
+        width: 28%;
+        padding: 25px 0px;
+        align-self: flex-start;
+    }
+
+    .Contact {
+        width: 22%;
+        padding: 15px;
+    }
+
+    .Contact h5 {
+        font-size: 10.5px;
+    }
+
+    .month {
+        height: 3.25rem;
+        padding: 0.35rem;
+    }
+
+    .month h1 {
+        font-size: 4.45em;
+        letter-spacing: 0.125rem;
+        font-weight: 200;
+        padding-top: 0.9rem;
+    }
+
+    .month button {
+        font-size: 1.95rem;
+    }
+
+    .month p {
+        font-size: 0.7rem;
+    }
+
+    .weekdays {
+        height: 0.85rem;
+        padding: 0 0.15rem;
+    }
+
+    .weekdays div {
+        font-size: 0.6rem;
+        font-weight: 300;
+        letter-spacing: 0.0425rem;
+    }
+
+    .days {
+        padding: 0.225rem 0.15rem;
+    }
+
+    .days div {
+        font-size: 0.4rem;
+        margin: 0.085rem;
+        height: 1rem;
+    }
+
+    .two {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px 20px;
+        height: 34.75px;
+        font-size: 5.5px;
+    }
+
+
+}
+
+@media(max-width:576px) {
+
+    .navbar {
+        max-width: 576px;
+    }
+
+    .first {
+        padding: 0px 10px;
+        margin: 0px;
+
+    }
+
+    .first a {
+        margin-left: 0px;
+        margin-right: 0px;
+        font-size: 35px;
+    }
+
+    .second {
+        font-size: 10.5px;
+        padding-left: 10px;
+        justify-self: end;
+    }
+
+    .navbar form {
+        margin: 0px;
+        padding: 0 10px;
+        max-width: 150px;
+        min-width: 130px;
+        font-size: 9px;
+
+    }
+
+    .navbar-nav {
+        padding-left: 10px;
+    }
+
+    .navbar-toggler {
+        height: 20px;
+        width: 40px;
+        font-size: 7.5px;
+        font-weight: 400;
+
+    }
+
+    .content {
+        margin: 0px;
+        margin-top: 110px;
+        padding: 20px 20px;
+        width: 100%;
+    }
+
+    .write h1 {
+        font-size: 20.5px;
+    }
+    .write h3{
+        font-size: 17.5px;
+    }
+    .write h2{
+        font-size: 19px;
+    }
+
+    .write p {
+        font-size: 12.5px;
+        word-spacing: 0.75px;
+    }
+
+    footer {
+        font-size: 7.5px;
+    }
+
+    .one {
+        font-size: 7.5px;
+        padding: 20px 0px;
+        height: 250px;
+        font-size: 6px;
+
+
+    }
+
+    .Calender,
+    .Contact
+     {
+        height: 220px;
+        width: 40%;
+        padding: 20px 0px;
+        align-self: flex-start;
+    }
+    .Location{
+        height:100px;
+        width:20%;
+        padding: 20px 0px;
+        align-self: flex-start;
+        
+    }
+
+    .Contact {
+        padding: 10px;
+        width: 30%;
+        
+    }
+
+    .Contact h5 {
+        font-size: 9px;
+    }
+
+    .month {
+        height: 3rem;
+        padding: 0.2rem;
+    }
+
+    .month h1 {
+        font-size: 4em;
+        letter-spacing: 0.1rem;
+        font-weight: 200;
+        padding-top: 0.8rem;
+    }
+
+    .month button {
+        font-size: 1.9rem;
+    }
+
+    .month p {
+        font-size: 0.5rem;
+    }
+
+    .weekdays {
+        height: 0.7rem;
+        padding: 0 0.1rem;
+    }
+
+    .weekdays div {
+        font-size: 0.5rem;
+        font-weight: 300;
+        letter-spacing: 0.035rem;
+    }
+
+    .days {
+        padding: 0.2rem 0.1rem;
+    }
+
+    .days div {
+        font-size: 0.35rem;
+        margin: 0.06rem;
+        height: 1rem;
+    }
+
+    .two {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 20px;
+        height: 32.4px;
+        font-size: 4px;
+    }
+
+
+}
